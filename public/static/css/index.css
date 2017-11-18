@@ -1,0 +1,90 @@
+.container{
+/*    width: 500px;
+    height: 500px;
+    background: url(../images/bg2.jpg) no-repeat;
+    background-size: 100%;*/
+    position: relative;
+}
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.look{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.share{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+/** 外部盒子 **/
+.entry-share {
+    padding-top: 6px;
+    border-radius: 10px;
+    height: 50px;
+    width: 270px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto 20px;
+    position: absolute;
+    bottom: -5px;
+    z-index: 10000;
+    background: #fffa00;
+    display: none;
+}
+/********* 分享文字 ********/
+.entry-share .share-pu {
+    font-weight: 700;
+    line-height: 40px;
+}
+.entry-share .share-pu {
+    float: left;
+    color: #4d4d4d;
+}
+/******** 分享样式 ********/
+.entry-share div.share-box {
+    display: inline-block;
+    overflow: hidden;
+}
+.entry-share .jiathis_style_32x32 {
+    float: left !important;
+    margin-left: 10px;
+}
+.entry-share .jiathis_style_32x32 a {
+    float: left;
+    width: 40px;
+    height: 40px;
+    color: black;
+    font-size: 16px !important;
+    display: block;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #999;
+}
+
+/** 图标大小 **/
+.entry-share .jiathis_style_32x32 a span {
+    background: transparent !important;
+    width: 38px !important;
+    height: 38px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    float: none !important;
+    font-size: 20px !important;
+    display: block !important;
+    text-align: center !important;
+    line-height: 38px !important;
+}
+
+.entry-share .jiathis_style_32x32 a.jiathis_counter_style span.jiathis_bubble_style {
+    color: #666 !important;
+    font-size: 14px !important;
+    width: auto !important;
+}

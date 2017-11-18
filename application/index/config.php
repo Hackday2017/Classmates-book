@@ -26,6 +26,6 @@ return [
         '__CSS__'=>'/gitlab/classmates/public/static/css',
         '__FONT__'=>'/gitlab/classmates/public/static/font',
         '__JS__'=>'/gitlab/classmates/public/static/js',
-        '__IMG__' => '/gitlab/classmates/public/static/img',
+        '__IMG__' => '/gitlab/classmates/public/static/images',
     ),
 ];

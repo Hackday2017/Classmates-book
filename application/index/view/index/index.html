@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>xxx-同学录</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="__CSS__/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__/index.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__/reset.css">
+</head>
+<body>
+	<div class="container">
+		<img id="bg" src="__IMG__/bg2.jpg">
+		<div class="look">查看同学录</div>
+		<div class="share">邀请他人填写</div>
+	</div>
+
+
+
+<!-- JiaThis Button BEGIN -->
+<div class="entry-share">
+	<div class="share-box">
+		<span class="share-pu">分享到</span>
+		<div class="jiathis_style_32x32">
+			<a class="jiathis_button_cqq"><i class="fa fa-qq"></i></a>
+			<a class="jiathis_button_renren"><i class="fa fa-renren"></i></a>
+			<a class="jiathis_button_tsina"><i class="fa fa-weibo"></i></a>
+			<a class="jiathis_button_weixin"><i class="fa fa-weixin"></i></a>		
+		</div>
+	</div>
+<script type="text/javascript" >
+	var cardno;
+	$.ajax({
+		url:"",
+		type:"GET",
+		dataType:"text",
+		success:function(data){
+			cardno=data;
+		}
+	});
+	var jiathis_config={
+		data_track_clickback:true,
+		url:"https://www.baidu.com?"+cardno,
+		summary:"欢迎大家来填写我的同学录",
+		title:"我的同学录 #大家都来填写我的同学录#",
+		shortUrl:true,
+		hideMore:false
+	}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2149175" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+</div>
+
+
+<script type="text/javascript" src="__JS__/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="__JS__/index.js"></script>
+</body>
+</html>
